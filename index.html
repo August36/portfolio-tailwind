@@ -11,30 +11,51 @@
 <body class="bg-[#010311] text-white">
 
     <!-- Navigation -->
-    <header>
-        <nav class="flex flex-col gap-4 border-b border-white/10 bg-[#010311] px-6 py-5 sm:flex-row sm:items-center sm:justify-between"
-             aria-label="Main navigation">
+<header class="sticky top-0 z-50">
+    <nav
+        class="flex flex-col gap-5 border-b border-white/10 bg-[#010311] px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+        aria-label="Main navigation"
+    >
+        <a href="#hero" class="w-fit text-lg font-bold tracking-tight">
+            August Jarner
+        </a>
 
-            <a href="#hero" class="text-lg font-bold">August Jarner</a>
-
-            <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
-                <li><a href="#work" class="transition-colors hover:text-teal-300" data-i18n="navWork">Work</a></li>
-                <li><a href="#about" class="transition-colors hover:text-teal-300" data-i18n="navAbout">About</a></li>
-                <li><a href="#skills" class="transition-colors hover:text-teal-300" data-i18n="navSkills">Skills</a></li>
-                <li><a href="#contact" class="transition-colors hover:text-teal-300" data-i18n="navContact">Contact</a></li>
+        <div class="flex flex-wrap items-center justify-between gap-x-5 gap-y-4">
+            <ul class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm">
+                <li>
+                    <a href="#work" class="transition-colors hover:text-teal-300" data-i18n="navWork">
+                        Work
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="transition-colors hover:text-teal-300" data-i18n="navAbout">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="transition-colors hover:text-teal-300" data-i18n="navSkills">
+                        Skills
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="transition-colors hover:text-teal-300" data-i18n="navContact">
+                        Contact
+                    </a>
+                </li>
             </ul>
 
             <button
                 type="button"
                 id="language-switcher"
-                class="self-start rounded-lg border border-teal-300/50 px-3 py-2 text-sm font-medium text-teal-300 transition-colors hover:bg-teal-300/10 sm:self-auto"
+                class="rounded-lg border border-teal-300/50 px-3 py-2 text-sm font-medium text-teal-300 transition-colors hover:bg-teal-300/10"
                 aria-label="Switch to Danish"
                 data-i18n-aria-label="languageButtonLabel"
             >
                 Dansk
             </button>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <main>
 
