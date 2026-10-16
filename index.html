@@ -1,532 +1,500 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>August Jarner | Web Developer</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  </head>
 
-<body class="bg-[#010311] text-white">
-
+  <body class="bg-[#010311] text-white">
     <!-- Navigation -->
     <header>
-        <nav
-            class="flex flex-col gap-4 border-b border-white/10 bg-[#010311] px-6 py-5 sm:flex-row sm:items-center sm:justify-between"
-            aria-label="Main navigation"
-        >
-            <a href="/" class="font-bold text-lg">
-                August Jarner
+      <nav
+        class="flex flex-col gap-4 border-b border-white/10 bg-[#010311] px-6 py-5 sm:flex-row sm:items-center sm:justify-between"
+        aria-label="Main navigation"
+      >
+        <a href="/" class="font-bold text-lg"> August Jarner </a>
+
+        <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <li>
+            <a href="#work" class="transition-colors hover:text-teal-300">
+              Work
             </a>
+          </li>
 
-            <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
-                <li>
-                    <a href="#work" class="transition-colors hover:text-teal-300">
-                        Work
-                    </a>
-                </li>
+          <li>
+            <a href="#about" class="transition-colors hover:text-teal-300">
+              About
+            </a>
+          </li>
 
-                <li>
-                    <a href="#about" class="transition-colors hover:text-teal-300">
-                        About
-                    </a>
-                </li>
+          <li>
+            <a href="#skills" class="transition-colors hover:text-teal-300">
+              Skills
+            </a>
+          </li>
 
-                <li>
-                    <a href="#skills" class="transition-colors hover:text-teal-300">
-                        Skills
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#contact" class="transition-colors hover:text-teal-300">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
+          <li>
+            <a href="#contact" class="transition-colors hover:text-teal-300">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-
     <main>
+      <!-- ==================== HERO ==================== -->
 
-        <!-- ==================== HERO ==================== -->
-
-<section
-    id="hero"
-    class="bg-[#010311] px-6 py-16 sm:py-20 lg:py-28"
->
-    <div class="mx-auto max-w-6xl">
-
-        <p class="mb-5 text-sm font-medium uppercase tracking-wider text-gray-300">
+      <section id="hero" class="bg-[#010311] px-6 py-16 sm:py-20 lg:py-28">
+        <div class="mx-auto max-w-6xl">
+          <p
+            class="mb-5 text-sm font-medium uppercase tracking-wider text-gray-300"
+          >
             Looking for internship • Copenhagen / Zealand
-        </p>
+          </p>
 
-        <h1
+          <h1
             class="mb-10 max-w-5xl text-4xl font-bold leading-[1.12] tracking-tight text-white sm:text-5xl lg:text-6xl"
-        >
+          >
             Building websites that are accessible and
             <span class="text-teal-300">easy to use.</span>
-        </h1>
+          </h1>
 
-        <div class="mb-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-8 lg:gap-10">
-
+          <div
+            class="mb-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-8 lg:gap-10"
+          >
             <img
-                src="imgs/portfolio-profile-img2.jpg"
-                alt="Portrait of August Jarner"
-                class="h-48 w-48 shrink-0 rounded-xl object-cover object-top sm:h-52 sm:w-52 lg:h-56 lg:w-56"
-            >
+              src="imgs/portfolio-profile-img2.jpg"
+              alt="Portrait of August Jarner"
+              class="h-48 w-48 shrink-0 rounded-xl object-cover object-top sm:h-52 sm:w-52 lg:h-56 lg:w-56"
+            />
 
-            <p class="max-w-2xl text-base leading-8 text-gray-300 sm:text-[17px] sm:leading-9">
-                Hi, I'm August. I'm studying Web Development and currently looking for an internship. I originally studied Multimedia Design, which gave me an interest in both design and development. I'm especially interested in full-stack development, accessibility and sustainable web development.
+            <p
+              class="max-w-2xl text-base leading-8 text-gray-300 sm:text-[17px] sm:leading-9"
+            >
+              Hi, I'm August. I'm studying Web Development and currently looking
+              for an internship. I originally studied Multimedia Design, which
+              gave me an interest in both design and development. I'm especially
+              interested in full-stack development, accessibility and
+              sustainable web development.
             </p>
+          </div>
 
-        </div>
-
-        <div class="flex flex-col gap-3 sm:flex-row">
-
+          <div class="flex flex-col gap-3 sm:flex-row">
             <a
-                href="#contact"
-                class="flex min-h-11 items-center justify-center rounded-lg bg-teal-300 px-5 py-3 font-medium text-black transition-colors hover:bg-teal-200"
+              href="#contact"
+              class="flex min-h-11 items-center justify-center rounded-lg bg-teal-300 px-5 py-3 font-medium text-black transition-colors hover:bg-teal-200"
             >
-                Get in touch
+              Get in touch
             </a>
 
             <a
-                href="#work"
-                class="flex min-h-11 items-center justify-center rounded-lg border-2 border-teal-300 px-5 py-3 font-medium text-teal-300 transition-colors hover:bg-teal-500/10"
+              href="#work"
+              class="flex min-h-11 items-center justify-center rounded-lg border-2 border-teal-300 px-5 py-3 font-medium text-teal-300 transition-colors hover:bg-teal-500/10"
             >
-                See work
+              See work
             </a>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-</section>
+      <!-- ==================== WORK ==================== -->
+      <section id="work" class="bg-[#080b18] px-6 py-16 sm:py-20 lg:py-24">
+        <div class="mx-auto max-w-6xl">
+          <h2 class="mb-10 text-3xl font-bold sm:text-4xl">My work</h2>
 
-
-
-        <!-- ==================== WORK ==================== -->
-        <section
-            id="work"
-            class="bg-[#080b18] px-6 py-16 sm:py-20 lg:py-24"
-        >
-            <div class="mx-auto max-w-6xl">
-
-                <h2 class="mb-10 text-3xl font-bold sm:text-4xl">
-                    My work
-                </h2>
-
-
-                <!-- Project 1 -->
-                <article
-                    class="mb-8 grid overflow-hidden rounded-xl border border-white/10 bg-[#010311] lg:grid-cols-2"
-                >
-
-                    <div class="aspect-video lg:aspect-auto">
-                        <img
-                            src="imgs/skate-app-screenshot.png"
-                            alt="Screenshot of my skate spot application"
-                            class="h-full w-full object-cover"
-                        >
-                    </div>
-
-                    <div class="flex flex-col p-6 sm:p-8">
-
-                        <h3 class="mb-4 text-2xl font-bold">
-                            Skate spot app
-                        </h3>
-
-
-                        <div
-                            class="mb-5 flex flex-wrap gap-2"
-                            aria-label="Technologies used"
-                        >
-                            <span class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300">
-                                Python / Flask
-                            </span>
-
-                            <span class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300">
-                                SQL
-                            </span>
-
-                            <span class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300">
-                                JavaScript
-                            </span>
-                        </div>
-
-
-                        <p class="mb-6 leading-relaxed text-gray-300">
-                            A web application for finding and submitting skate
-                            spots. Built as a full-stack project in 2025.
-                        </p>
-
-
-                        <h4 class="mb-3 font-bold">
-                            Features
-                        </h4>
-
-                        <ul class="mb-8 list-inside list-disc space-y-2 text-gray-300">
-                            <li>Search functionality</li>
-                            <li>Frontend and backend validation</li>
-                            <li>Admin dashboard for users and spots</li>
-                            <li>Email verification</li>
-                        </ul>
-
-
-                        <a
-                            href="https://webfinal-production-7fe8.up.railway.app/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="mt-auto font-medium text-teal-300 transition-colors hover:text-teal-200"
-                        >
-                            View project →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 2 -->
-                <article
-                    class="grid overflow-hidden rounded-xl border border-white/10 bg-[#010311] lg:grid-cols-2"
-                >
-
-                    <div class="aspect-video lg:aspect-auto">
-                        <img
-                            src="imgs/krasboerstig-screenshot.png"
-                            alt="Screenshot of the Krasbørstig gallery website"
-                            class="h-full w-full object-cover"
-                        >
-                    </div>
-
-                    <div class="flex flex-col p-6 sm:p-8">
-
-                        <h3 class="mb-4 text-2xl font-bold">
-                            Website for Gallery Krasbørstig
-                        </h3>
-
-
-                        <div
-                            class="mb-5 flex flex-wrap gap-2"
-                            aria-label="Technologies used"
-                        >
-                            <span class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300">
-                                React
-                            </span>
-
-                            <span class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300">
-                                Firebase
-                            </span>
-
-                            <span class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300">
-                                Tailwind
-                            </span>
-                        </div>
-
-
-                        <p class="mb-6 leading-relaxed text-gray-300">
-                            A website for my dad's gallery, Krasbørstig.
-                            The website showcases events and paintings and
-                            gives visitors and customers a way to get in touch.
-                        </p>
-
-
-                        <h4 class="mb-3 font-bold">
-                            Features
-                        </h4>
-
-                        <ul class="mb-8 list-inside list-disc space-y-2 text-gray-300">
-                            <li>Admin dashboard to manage images and events</li>
-                            <li>Email feature implemented with Klaviyo</li>
-                            <li>Responsive design</li>
-                            <li>Firebase integration</li>
-                        </ul>
-
-
-                        <a
-                            href="https://www.kelljarner.dk/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="mt-auto font-medium text-teal-300 transition-colors hover:text-teal-200"
-                        >
-                            View project →
-                        </a>
-
-                    </div>
-
-                </article>
-
+          <!-- Project 1 -->
+          <article
+            class="mb-8 grid overflow-hidden rounded-xl border border-white/10 bg-[#010311] lg:grid-cols-2"
+          >
+            <div class="aspect-video lg:aspect-auto">
+              <img
+                src="imgs/skate-app-screenshot.png"
+                alt="Screenshot of my skate spot application"
+                class="h-full w-full object-cover"
+              />
             </div>
-        </section>
 
-
-        <!-- ==================== ABOUT ==================== -->
-        <section
-            id="about"
-            class="bg-[#010311] px-6 py-16 sm:py-20 lg:py-24"
-        >
-            <div class="mx-auto max-w-6xl">
-
-                <h2 class="mb-10 text-3xl font-bold sm:text-4xl">
-                    About Me
-                </h2>
-
-
-                <div class="grid gap-8 lg:grid-cols-[1.5fr_1fr]">
-
-                    <!-- About text -->
-                    <div class="space-y-6">
-
-                        <article class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8">
-                            <h3 class="mb-4 text-xl font-bold">
-                                My background
-                            </h3>
-
-                            <div class="space-y-4 leading-relaxed text-gray-300">
-                                <p>
-                                    My name is August, I study web development and I'm based in Copenhagen. I started out in multimedia design, and while I've always loved the creative side, coding became equally if not more interesting to me over time. That's why I decided to continue with a top-up in web development.
-                                </p>
-                            </div>
-                        </article>
-
-
-                        <article class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8">
-                            <h3 class="mb-4 text-xl font-bold">
-                                What I care about
-                            </h3>
-
-                            <div class="space-y-4 leading-relaxed text-gray-300">
-                                <p>
-                                    I enjoy combining design and coding. I value structure and always strive to write clean, structured and reusable code. I'm also interested in accessibility and digital sustainability, and I think it's important to create websites that are inclusive and accessible to everyone.
-                                </p>
-                            </div>
-                        </article>
-
-
-                        <article class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8">
-                            <h3 class="mb-4 text-xl font-bold">
-                                Outside development
-                            </h3>
-
-                            <p class="leading-relaxed text-gray-300">
-                                Outside of web development, I'm into skateboarding, music, videography and video games. I spent much of my youth learning to skate, which taught me a lot about resilience and persistence. It's something I feel has carried over into my work ethic and the way I approach things in general.
-                            </p>
-                        </article>
-
-                    </div>
-
-
-                    <!-- Right side -->
-                    <div class="flex flex-col gap-8">
-
-                        <!-- Contact -->
-                        <aside
-                            id="contact"
-                            class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
-                        >
-
-                            <h3 class="mb-4 text-xl font-bold">
-                                Let's talk
-                            </h3>
-
-                            <p class="mb-6 leading-relaxed text-gray-300">
-                                I'm currently looking for an internship where
-                                I can contribute, learn and develop my skills
-                                as a web developer.
-                            </p>
-
-
-                            <dl class="space-y-5">
-
-                                <div>
-                                    <dt class="mb-1 text-sm font-medium text-teal-300">
-                                        Email
-                                    </dt>
-
-                                    <dd>
-                                        <a
-                                            href="mailto:augustjp@live.dk"
-                                            class="break-all transition-colors hover:text-teal-300"
-                                        >
-                                            augustjp@live.dk
-                                        </a>
-                                    </dd>
-                                </div>
-
-
-                                <div>
-                                    <dt class="mb-1 text-sm font-medium text-teal-300">
-                                        Phone
-                                    </dt>
-
-                                    <dd>
-                                        <a
-                                            href="tel:+4523935829"
-                                            class="transition-colors hover:text-teal-300"
-                                        >
-                                            +45 23 93 58 29
-                                        </a>
-                                    </dd>
-                                </div>
-
-                                <div>
-                                    <dt class="mb-1 text-sm font-medium text-teal-300">
-                                        Github
-                                    </dt>
-
-                                    <dd>
-                                        <a
-                                            href="https://github.com/August36"
-                                            class="transition-colors hover:text-teal-300"
-                                            target="_blank"
-                                        >
-                                            https://github.com/August36
-                                        </a>
-                                    </dd>
-                                </div>
-
-
-                                <div>
-                                    <dt class="mb-1 text-sm font-medium text-teal-300">
-                                        Location
-                                    </dt>
-
-                                    <dd>
-                                        København, Denmark
-                                    </dd>
-                                </div>
-
-
-                                <div>
-                                    <dt class="mb-1 text-sm font-medium text-teal-300">
-                                        Education
-                                    </dt>
-
-                                    <dd class="space-y-1">
-                                        <p>Web Development</p>
-                                        <p>Multimedia Design</p>
-                                    </dd>
-                                </div>
-
-                            </dl>
-
-                        </aside>
-
-
-                        <!-- Skills + interests -->
-                        <aside
-                            id="skills"
-                            class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
-                        >
-
-                            <div class="mb-8">
-
-                                <h3 class="mb-4 text-xl font-bold">
-                                    Skills
-                                </h3>
-
-                                <ul class="flex flex-wrap gap-2">
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        HTML & CSS
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        JavaScript
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Python & Flask
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        SQL & MySQL
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        React & Vue
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Git & GitHub
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-
-                            <div>
-
-                                <h3 class="mb-4 text-xl font-bold">
-                                    Interests
-                                </h3>
-
-                                <ul class="flex flex-wrap gap-2">
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Skateboarding
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Music
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Videography
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Photography
-                                    </li>
-
-                                    <li class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300">
-                                        Digital design
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-                        </aside>
-
-                    </div>
-
+            <div class="flex flex-col p-6 sm:p-8">
+              <h3 class="mb-4 text-2xl font-bold">Skate spot app</h3>
+
+              <div
+                class="mb-5 flex flex-wrap gap-2"
+                aria-label="Technologies used"
+              >
+                <span
+                  class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300"
+                >
+                  Python / Flask
+                </span>
+
+                <span
+                  class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300"
+                >
+                  SQL
+                </span>
+
+                <span
+                  class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300"
+                >
+                  JavaScript
+                </span>
+              </div>
+
+              <p class="mb-6 leading-relaxed text-gray-300">
+                A web application for finding and submitting skate spots. Built
+                as a full-stack project in 2025.
+              </p>
+
+              <h4 class="mb-3 font-bold">Features</h4>
+
+              <ul class="mb-8 list-inside list-disc space-y-2 text-gray-300">
+                <li>Search functionality</li>
+                <li>Frontend and backend validation</li>
+                <li>Admin dashboard for users and spots</li>
+                <li>Email verification</li>
+              </ul>
+
+              <a
+                href="https://webfinal-production-7fe8.up.railway.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-auto font-medium text-teal-300 transition-colors hover:text-teal-200"
+              >
+                View project →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article
+            class="grid overflow-hidden rounded-xl border border-white/10 bg-[#010311] lg:grid-cols-2"
+          >
+            <div class="aspect-video lg:aspect-auto">
+              <img
+                src="imgs/krasboerstig-screenshot.png"
+                alt="Screenshot of the Krasbørstig gallery website"
+                class="h-full w-full object-cover"
+              />
+            </div>
+
+            <div class="flex flex-col p-6 sm:p-8">
+              <h3 class="mb-4 text-2xl font-bold">
+                Website for Gallery Krasbørstig
+              </h3>
+
+              <div
+                class="mb-5 flex flex-wrap gap-2"
+                aria-label="Technologies used"
+              >
+                <span
+                  class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300"
+                >
+                  React
+                </span>
+
+                <span
+                  class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300"
+                >
+                  Firebase
+                </span>
+
+                <span
+                  class="rounded-full bg-teal-300/10 px-3 py-1 text-sm text-teal-300"
+                >
+                  Tailwind
+                </span>
+              </div>
+
+              <p class="mb-6 leading-relaxed text-gray-300">
+                A website for my dad's gallery, Krasbørstig. The website
+                showcases events and paintings and gives visitors and customers
+                a way to get in touch.
+              </p>
+
+              <h4 class="mb-3 font-bold">Features</h4>
+
+              <ul class="mb-8 list-inside list-disc space-y-2 text-gray-300">
+                <li>Admin dashboard to manage images and events</li>
+                <li>Email feature implemented with Klaviyo</li>
+                <li>Responsive design</li>
+                <li>Firebase integration</li>
+              </ul>
+
+              <a
+                href="https://www.kelljarner.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-auto font-medium text-teal-300 transition-colors hover:text-teal-200"
+              >
+                View project →
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section id="about" class="bg-[#010311] px-6 py-16 sm:py-20 lg:py-24">
+        <div class="mx-auto max-w-6xl">
+          <h2 class="mb-10 text-3xl font-bold sm:text-4xl">About Me</h2>
+
+          <div class="grid gap-8 lg:grid-cols-[1.5fr_1fr]">
+            <!-- About text -->
+            <div class="space-y-6">
+              <article
+                class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
+              >
+                <h3 class="mb-4 text-xl font-bold">My background</h3>
+
+                <div class="space-y-4 leading-relaxed text-gray-300">
+                  <p>
+                    My name is August, I study web development and I'm based in
+                    Copenhagen. I started out in multimedia design, and while
+                    I've always loved the creative side, coding became equally
+                    if not more interesting to me over time. That's why I
+                    decided to continue with a top-up in web development.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
+              >
+                <h3 class="mb-4 text-xl font-bold">What I care about</h3>
+
+                <div class="space-y-4 leading-relaxed text-gray-300">
+                  <p>
+                    I enjoy combining design and coding. I value structure and
+                    always strive to write clean, structured and reusable code.
+                    I'm also interested in accessibility and digital
+                    sustainability, and I think it's important to create
+                    websites that are inclusive and accessible to everyone.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
+              >
+                <h3 class="mb-4 text-xl font-bold">Outside development</h3>
+
+                <p class="leading-relaxed text-gray-300">
+                  Outside of web development, I'm into skateboarding, music,
+                  videography and video games. I spent much of my youth learning
+                  to skate, which taught me a lot about resilience and
+                  persistence. It's something I feel has carried over into my
+                  work ethic and the way I approach things in general.
+                </p>
+              </article>
+            </div>
+
+            <!-- Right side -->
+            <div class="flex flex-col gap-8">
+              <!-- Contact -->
+              <aside
+                id="contact"
+                class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
+              >
+                <h3 class="mb-4 text-xl font-bold">Let's talk</h3>
+
+                <p class="mb-6 leading-relaxed text-gray-300">
+                  I'm currently looking for an internship where I can
+                  contribute, learn and develop my skills as a web developer.
+                </p>
+
+                <dl class="space-y-5">
+                  <div>
+                    <dt class="mb-1 text-sm font-medium text-teal-300">
+                      Email
+                    </dt>
+
+                    <dd>
+                      <a
+                        href="mailto:augustjp@live.dk"
+                        class="break-all transition-colors hover:text-teal-300"
+                      >
+                        augustjp@live.dk
+                      </a>
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt class="mb-1 text-sm font-medium text-teal-300">
+                      Phone
+                    </dt>
+
+                    <dd>
+                      <a
+                        href="tel:+4523935829"
+                        class="transition-colors hover:text-teal-300"
+                      >
+                        +45 23 93 58 29
+                      </a>
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt class="mb-1 text-sm font-medium text-teal-300">
+                      Github
+                    </dt>
+
+                    <dd>
+                      <a
+                        href="https://github.com/August36"
+                        class="transition-colors hover:text-teal-300"
+                        target="_blank"
+                      >
+                        https://github.com/August36
+                      </a>
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt class="mb-1 text-sm font-medium text-teal-300">
+                      Location
+                    </dt>
+
+                    <dd>København, Denmark</dd>
+                  </div>
+
+                  <div>
+                    <dt class="mb-1 text-sm font-medium text-teal-300">
+                      Education
+                    </dt>
+
+                    <dd class="space-y-1">
+                      <p>Web Development</p>
+                      <p>Multimedia Design</p>
+                    </dd>
+                  </div>
+                </dl>
+              </aside>
+
+              <!-- Skills + interests -->
+              <aside
+                id="skills"
+                class="rounded-xl border border-white/10 bg-[#080b18] p-6 sm:p-8"
+              >
+                <div class="mb-8">
+                  <h3 class="mb-4 text-xl font-bold">Skills</h3>
+
+                  <ul class="flex flex-wrap gap-2">
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      HTML
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      CSS, Tailwind, Bulma & SCSS
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      JavaScript
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      React & Vue
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Python & Flask
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      PHP & Laravel
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      SQL & MySQL
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Git & GitHub
+                    </li>
+                  </ul>
                 </div>
 
-            </div>
-        </section>
+                <div>
+                  <h3 class="mb-4 text-xl font-bold">Interests</h3>
 
+                  <ul class="flex flex-wrap gap-2">
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Skateboarding
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Music
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Videography
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Photography
+                    </li>
+
+                    <li
+                      class="rounded-full bg-teal-300/10 px-3 py-1.5 text-sm text-teal-300"
+                    >
+                      Digital design
+                    </li>
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
     <!-- ==================== FOOTER ==================== -->
-<footer class="border-t border-white/10 bg-[#010311] px-6 py-8">
-    <div class="mx-auto flex max-w-6xl flex-row justify-between">
+    <footer class="border-t border-white/10 bg-[#010311] px-6 py-8">
+      <div class="mx-auto flex max-w-6xl flex-row justify-between">
         <a
-            href="mailto:augustjp@live.dk"
-            class="text-sm text-gray-400 transition-colors hover:text-teal-300"
+          href="mailto:augustjp@live.dk"
+          class="text-sm text-gray-400 transition-colors hover:text-teal-300"
         >
-            augustjp@live.dk
+          augustjp@live.dk
         </a>
 
-        <p
-            class="text-sm text-gray-400"
-        >
-            +45 23 93 58 29
-        </p>
+        <p class="text-sm text-gray-400">+45 23 93 58 29</p>
 
         <a
-            href="https://github.com/August36"
-            class="text-sm text-gray-400 transition-colors hover:text-teal-300"
+          href="https://github.com/August36"
+          class="text-sm text-gray-400 transition-colors hover:text-teal-300"
         >
-            Github
+          Github
         </a>
-    </div>
-</footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
